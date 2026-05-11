@@ -4,13 +4,13 @@ import Header from './components/Header'
 
 function App() {
   return (
-    <div className="appShell">
+    <main>
       <Header />
-      <main className="homeSectionGridContainer">
+      <section className="homeSectionGridContainer">
         <LandingPageFlow />
-      </main>
+      </section>
       <Footer />
-    </div>
+    </main>
   )
 }
 
